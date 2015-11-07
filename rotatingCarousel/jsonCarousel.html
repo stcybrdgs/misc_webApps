@@ -1,0 +1,58 @@
+<! DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8" />
+	<title>JSON Carousel</title>
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville|Wendy+One' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" href="mystyle.css" />
+</head>
+<body>
+	<div id="speakerbox">
+		<a href="#" id="prev_btn">&laquo;</a>
+		<a href="#" id="next_btn">&raquo;</a>
+		<div id="carousel"></div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.03/jquery.cycle.all.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.3/mustache.min.js"></script>	
+	<script>
+	/*
+		the id is a handle for mustache.js to use
+
+		With mustache.js, 'sections' render blocks of text one or more times, depending on the value of the key in the current context.
+		A section begins with a pound and ends with a slash. 
+		The text between the two tags is referred to as that section's "block".
+		The behavior of the section is determined by the value of the key.
+	*/
+	</script>
+	<script id="speakerstpl" type="text/template"> 
+		{{#speakers}}
+		<div class="speaker">
+			<img src="images/{{shortname}}.jpg" alt = "photo of {{name}}">
+			<h3>{{name}}</h3>
+			<h4>{{reknown}}</h4>
+			<p>{{bio}}</p>
+		</div>
+		{{/speakers}}
+	</script>
+	<script type="text/javascript">
+		$(function(){
+			$.getJSON('speakers.json', function(data){
+				var template = $('#speakerstpl').html();
+				var html = Mustache.to_html(template, data);
+				$('#carousel').html(html);	
+
+				$('#carousel').cycle({
+					fx: 'fade',
+					pause: 1,
+					next: '#next_btn',
+					prev: '#prev_btn',
+					speed: 600,
+					timeout: 5000	
+				});
+			}); // getJSON
+
+		}); // function
+	</script>
+</body>
+</html>
