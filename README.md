@@ -2,4 +2,4 @@
 
 This repo contains a running collection of various web applications.
 
-- **[Rotating Carousel](rotatingCarousel)**:    A rotating info carousel created with **jQuery**, **mustache**, and **JSON**.
+- **[rotatingCarousel](rotatingCarousel)**:  this folder contains a web app that renders an info carousel using **jQuery**, **mustache**, and **JSON**.
