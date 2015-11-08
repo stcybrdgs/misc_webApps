@@ -1,0 +1,32 @@
+body{
+    font-family:'Comic Sans MS', 'Arial', sans-serif;
+}
+#main{
+    margin: 0 auto;
+    width:50%;
+}
+#input{
+    float:left;    
+    border:1px solid gray;
+    padding:10px;
+    margin:0px 40px 0px 0px;
+}
+#output{
+
+}
+input, select, label{
+    //margin-left:10px;
+    width:200px;
+    height:25px;    
+
+}
+input, select{
+    font-size:1.2em;
+    color:green;
+    background-color:#F3F7CB;
+}
+
+span{
+    text-decoration:underline;
+    color:green;
+}
