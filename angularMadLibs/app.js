@@ -9,13 +9,13 @@ $(document).ready(function(){
 });
 
 // AngularJS --------------------------------------
-// MODULE
+// Module
 var myApp = angular.module('myApp', []);
 
-// CONTROLLER
+// Controller
 myApp.controller('mainController', ['$scope', function ($scope) {
 
-    // MODEL
+    // Model
     $scope.placeName = '';
     $scope.noun = '';
     $scope.noun2 = '';
