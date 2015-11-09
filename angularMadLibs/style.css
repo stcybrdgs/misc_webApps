@@ -5,27 +5,26 @@ body{
     margin: 0 auto;
     width:50%;
 }
-#input{
+#input:not(#reset){
+    position:relative;
     float:left;    
     border:1px solid gray;
     padding:10px;
     margin:0px 40px 0px 0px;
 }
 #output{
-
+    position:relative;
+    font-size:1.4em;
 }
-input, select, label{
-    //margin-left:10px;
+input:not(#reset), select, label{
     width:200px;
     height:25px;    
-
 }
-input, select{
+input:not(#reset), select{
     font-size:1.2em;
     color:green;
     background-color:#F3F7CB;
 }
-
 span{
     text-decoration:underline;
     color:green;

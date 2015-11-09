@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css" />
-        <!-- load angular via CDN -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>         
         <script src="//code.angularjs.org/1.4.0-rc.1/angular.min.js"></script>
         <script src="app.js"></script>
     </head>
@@ -15,6 +15,8 @@
                 <br/><br/>
                 <div id="header">
                     <h1>Angular Mad Libs</h1>
+                    <hr/>
+                    <br/>
                 </div>
                 <div id="input">
                     <label>A Place Name: </label><br/>
@@ -27,29 +29,33 @@
                     <input type="text" ng-model="noun2"/><br/><br/>                    
 
                     <label>A Season: </label><br/>
-                    <select ng-model="season" style="width:200px;height:30px;">
-                        <option value="Spring">Spring</option>
-                        <option value="Summer">Summer</option>
-                        <option value="Autumn">Autumn</option>
-                        <option value="Winter">Winter</option>                        
-                    </select><br/><br/>                    
-
+                    <input type="text" ng-model="season"/><br/><br/>                     
+ 
                     <label>An Affectionate Term: </label><br/>                    
-                    <input type="text" ng-model="affectionateTerm"/><br/><br/>
+                    <input type="text" ng-model="affectionateTerm" /><br/><br/>
 
                     <label>A Verb (past tense): </label><br/>                    
                     <input type="text" ng-model="pastTenseVerb"/><br/><br/>                    
 
                     <label>A Type of Vehicle: </label><br/>                    
-                    <input type="text" ng-model="vehicle"/><br/><br/>                      
+                    <input type="text" ng-model="vehicle"/><br/><br/>  
+                    
+                    <button id="reset">Reset</button>
                 </div>
-
+                <!-- VIEW -->
                 <div id="output">
-                    <h3>  
-                        There once was a man from <span>{{placeName}}</span>.<br/>
-                        He carried his <span>{{noun}}</span> around in a <span>{{noun2}}</span>.<br/> 
-                        When <span>{{season}}</span> drew near, he cried, "Oh, my <span>{{affectionateTerm}}</span>!"<br/> 
-                        And then he <span>{{pastTenseVerb}}</span> off in a<span>{{vehicle}}</span>.<br/>
+                    <h3>
+                        There once was a man from <span>{{placeName}}</span>.
+                        <br/>
+                        He carried his <span>{{noun}}</span> around 
+                        in a <span>{{noun2}}</span>.
+                        <br/> 
+                        When <span>{{season}}</span> drew near, 
+                        he cried, "Oh, my <span>{{affectionateTerm}}</span>!"
+                        <br/> 
+                        And then he <span>{{pastTenseVerb}}</span> 
+                        quickly away in a/an <span>{{vehicle}}</span>.
+                        <br/>
                     </h3>
                 </div><!-- end output -->
             </div><!-- end mainController -->
