@@ -19,8 +19,8 @@
 	/*
 		the id is a handle for mustache.js to use
 
-		With mustache.js, 'sections' render blocks of text one or more times, depending on the value of the key in the current context.
-		A section begins with a pound and ends with a slash. 
+		With mustache.js, 'sections' render blocks of text one or more times, depending on the value of the key 
+		in the current context.A section begins with a pound and ends with a slash. 
 		The text between the two tags is referred to as that section's "block".
 		The behavior of the section is determined by the value of the key.
 	*/
@@ -41,7 +41,6 @@
 				var template = $('#speakerstpl').html();
 				var html = Mustache.to_html(template, data);
 				$('#carousel').html(html);	
-
 				$('#carousel').cycle({
 					fx: 'fade',
 					pause: 1,
@@ -49,9 +48,8 @@
 					prev: '#prev_btn',
 					speed: 600,
 					timeout: 5000	
-				});
+				}); // cycle()
 			}); // getJSON
-
 		}); // function
 	</script>
 </body>
