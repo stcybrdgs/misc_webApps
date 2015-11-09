@@ -3,37 +3,49 @@
 			"name"		:	"Arnold",
 			"shortname"	:	"Arnie",
 			"reknown"	:	"Sculptor",
-			"bio"		:	"Arnold is a sculptor who specialize in sculptures that look like running water. He has pieces on display at the White House, the Smithsonian, and the Masonic Temple in Detroit."
+			"bio"		:	"Arnold is a sculptor who specialize in sculptures that look 
+						like running water. He has pieces on display at the White House, 
+						the Smithsonian, and the Masonic Temple in Detroit."
 		},
 		{
 			"name"		:	"Beaumont",
 			"shortname"	:	"Beau",
 			"reknown"	:	"Seafood Chef",
-			"bio"		:	"Beaumont is a chef who loves prawns, prunes, and pringles. She specializes in salty, crunchy seafood dishes that pass easily and defy anyone who tries to eat just one."
+			"bio"		:	"Beaumont is a chef who loves prawns, prunes, and pringles. 
+						She specializes in salty, crunchy seafood dishes that pass easily 
+						and defy anyone who tries to eat just one."
 		},
 		{
 			"name"		:	"Becky",
 			"shortname"	:	"Beck",
 			"reknown"	:	"Origami Master",
-			"bio"		:	"Becky is a master of origami. She is currently working she works out a new original design for the world's largest origami crane, which will feature an intricate latticed boom."
+			"bio"		:	"Becky is a master of origami. She is currently working she works out 
+						a new original design for the world's largest origami crane, which will 
+						feature an intricate latticed boom."
 		},
 		{
 			"name"		:	"Raymond",
 			"shortname"	:	"Ray",
 			"reknown"	:	"Singer/Songwriter",
-			"bio"		:	"Raymond is a passionate singer/songwriter. He is making a name for himself in Austin, Texas, where the music capitol is tuning in to his unique voice and sophisticated style."
+			"bio"		:	"Raymond is a passionate singer/songwriter. He is making a name for 
+						himself in Austin, Texas, where the music capitol is tuning in to his 
+						unique voice and sophisticated style."
 		},
 		{
 			"name"		:	"Matthew",
 			"shortname"	:	"Matt",
 			"reknown"	:	"Outdoorsman",
-			"bio"		:	"Matt is a granola camper who has hiked the entirety of the Appalachian Trail and scaled the Matterhorn. He studies aroma therapy and horticulture in his spare time."
+			"bio"		:	"Matt is a granola camper who has hiked the entirety of the Appalachian 
+						Trail and scaled the Matterhorn. He studies aroma therapy and horticulture 
+						in his spare time."
 		},
 		{
 			"name"		:	"Jazz Winston",
 			"shortname"	:	"Jazz",
 			"reknown"	:	"World's Best Dog",
-			"bio"		:	"Jazz is the world's best dog. He likes to run on the soccer field, to play squeaky squirrel, and to eat chicken biscuits. On hot days, he passes the time catching flies on the patio." 
+			"bio"		:	"Jazz is the world's best dog. He likes to run on the soccer field, 
+						to play squeaky squirrel, and to eat chicken biscuits. On hot days, 
+						he passes the time catching flies on the patio." 
 		}
 	]
 
