@@ -2,5 +2,5 @@
 
 This repo contains a running collection of various web applications.
 
-- **[rotatingCarousel](rotatingCarousel)**:  displays an info carousel using **jQuery**, **Mustache**, and **JSON**.
-- **[angularMadLibs](angularMadLibs)**:  displays an interactive "mad libs" style game using **jQuery** and **AngularJS**.
+- **[rotatingCarousel](rotatingCarousel)**:  an info carousel created with **jQuery**, **Mustache**, and **JSON**.
+- **[angularMadLibs](angularMadLibs)**:  an interactive "mad libs" style game created with **jQuery** and **AngularJS**.
